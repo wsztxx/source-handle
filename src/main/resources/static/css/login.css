@@ -1,0 +1,87 @@
+html{
+	height: 100%;
+}
+
+.body-login{
+	height: 100%;
+	background: url(../images/bg-login.png) no-repeat center center;
+	background-size: 100% 100%;
+	padding-top: 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.top{
+	width: 100%;
+	height: 40px;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.top .logo{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	overflow: hidden;
+	float: left;
+}
+.top .logo img{
+	width: 100%;
+	height: 100%;
+}
+.top .title{
+	float: left;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.login-form{
+	width: 360px;
+	position: absolute;
+	right: 120px;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 4px;
+	padding: 50px 25px;
+}
+.login-form .login-title{
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 22px;
+}
+
+.form-group{
+	padding: 20px 0;
+}
+
+.form-group .input{
+	width: 100%;
+	height: 40px;
+	background: rgba(2, 26, 67, 0.2);
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: bold;
+	color: #e6e6e6;
+}
+
+.form-group .btn-login{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #3e9ca3;
+    background-color: #3e9ca3;
+    color: #e6e6e6;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-group .btn-login:hover{
+	background-color: rgb(55, 170, 167);
+}

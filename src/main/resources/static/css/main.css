@@ -1,0 +1,160 @@
+.left-nav{
+	position: fixed;
+	top: 0;
+	width: 264px;
+	background: #3f4d67;
+	height: 100vh;
+	z-index: 2;
+}
+.left-nav .left-nav-top{
+	height: 70px;
+	padding: 5px 10px;;
+}
+.left-nav .left-nav-top .logo{
+	width: 40px;
+	height: 40px;
+	border-radius: 25px;
+	overflow: hidden;
+	float: left;
+	margin-top: 5px;
+}
+.left-nav .left-nav-top .logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.left-nav .left-nav-top .title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 50px;
+	float: left;
+	padding: 0 0 0 10px;
+}
+
+.left-nav .nav-title{
+	color: #ffffff;
+	height: 50px;
+	line-height: 30px;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.left-nav .nav-content{
+	padding: 0;
+}
+.left-nav .nav-content .nav-item{
+	height: 50px;
+	line-height: 50px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0 20px;
+}
+
+.left-nav .nav-content .nav-item:hover{
+	background: rgb(40, 100, 125);
+}
+
+.left-nav .nav-content .nav-item a{
+	color: #ffffff;
+	display: block;
+	width: 100%;
+}
+
+.top-nav{
+	position: fixed;
+	top: 0px;
+	height: 70px;
+	background-color: #ffffff;
+	width: calc(100% - 264px);
+	margin-left: 264px;
+	z-index: 1;
+}
+
+.top-nav .top-nav-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+.top-nav .top-nav-content .top-nav-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	width: 90px;
+	height: 70px;
+}
+.top-nav .top-nav-content .top-nav-item:hover{
+	color: #2aacd6;
+}
+
+.top-nav .top-nav-content .top-nav-item .item-icon{
+	width: 30px;
+	height: 30px;
+}
+
+.top-nav .top-nav-content .top-nav-item .item-icon.icon0{
+	background: url(../images/nav-icon-00.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon0{
+	background: url(../images/nav-icon-00-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon1{
+	background: url(../images/nav-icon-01.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon1{
+	background: url(../images/nav-icon-01-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon2{
+	background: url(../images/nav-icon-02.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon2{
+	background: url(../images/nav-icon-02-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon3{
+	background: url(../images/nav-icon-03.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon3{
+	background: url(../images/nav-icon-03-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon4{
+	background: url(../images/nav-icon-04.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon4{
+	background: url(../images/nav-icon-04-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon5{
+	background: url(../images/nav-icon-05.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon5{
+	background: url(../images/nav-icon-05-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon6{
+	background: url(../images/nav-icon-06.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon6{
+	background: url(../images/nav-icon-06-hover.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item .item-icon.icon7{
+	background: url(../images/nav-icon-07.png) no-repeat center center;
+}
+.top-nav .top-nav-content .top-nav-item:hover .item-icon.icon7{
+	background: url(../images/nav-icon-07-hover.png) no-repeat center center;
+}
+
+.item-title{
+	font-size: 14px;
+}
+
+
+.container{
+	background: url(../images/bg-login.jpg) no-repeat center center ;
+	background-size: 100% 100%;
+	min-height: calc(100vh - 60px);
+	margin-left: 264px;
+	margin-top: 60px;
+}

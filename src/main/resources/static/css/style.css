@@ -1,0 +1,15 @@
+section, article, aside, header, footer, nav, figure { display: block; }
+body, h1, h2, h3, h4, h5, h6, blockquote, div, dl, dt, dd, ul, ol, li, p, pre, form, fieldset, legend, button, input, textarea, th, td, tr, table, tbody, thead, tfoot, em, strong, span, figure { margin: 0; padding: 0; transition: background 0.3s;}
+body, button, input, select, textarea { font: 12px/1.8 Microsoft YaHei,Simsun,sans-serif; outline: none; color: #666; }
+h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-size: 100%; font-style: normal; font-weight: normal; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new,courier,monospace; }
+p, ul, li, dl, dd, dt, form, h1, h2, h3, h4, h5, h6 { list-style: none; }
+a { color: #666; text-decoration: none; }
+a:hover { text-decoration: none; }
+fieldset, img { border: 0; }
+img { display: block; border: 0 none; }
+em { font-weight: normal; font-style: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+input::-moz-focus-inner, button::-moz-focus-inner { border: 0; padding: 0; outline: 0; }
+body{background-color: #f3f5fb;}
